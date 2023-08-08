@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Abdalla-Mon.github.io/react-gh-pages",
+  "homepage": "https://abdalla-mon.github.io/react-gh-pages",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

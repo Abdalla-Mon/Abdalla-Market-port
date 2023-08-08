@@ -271,6 +271,8 @@ function Setting() {
     let ele = document.querySelectorAll(
       ".trending .css-1ri6ub7-MuiPaper-root-MuiCard-root"
     );
+    let ele2 = document.querySelectorAll(".trending .css-w88nxk ");
+
     let fet = document.querySelectorAll(".offers .offer-back .offer-back-lay");
     colors.forEach((e, index) => {
       document.documentElement.style.setProperty(property[index], `#${e}`);
@@ -295,16 +297,35 @@ function Setting() {
 
         document.documentElement.style.setProperty("--white-color", `#1f1b36`);
       }
+      if (ele2 !== null) {
+        ele2.forEach((e) => {
+          e.style.backgroundColor = "#8492a6";
+        });
+
+        fet.forEach((e) => {
+          e.style.opacity = "0.6";
+        });
+        document.documentElement.style.setProperty("--black-color", `#000000`);
+
+        document.documentElement.style.setProperty("--white-color", `#1f1b36`);
+      }
     } else if (theme === "dark") {
       ele.forEach((e) => {
+        e.style.backgroundColor = "#ffffff";
+      });
+      ele2.forEach((e) => {
         e.style.backgroundColor = "#ffffff";
       });
       fet.forEach((e) => {
         e.style.opacity = "1";
       });
       document.documentElement.style.setProperty("--black-color", `#ffffff`);
+      document.documentElement.style.setProperty("--white-color", `#ffffff`);
     } else {
       ele.forEach((e) => {
+        e.style.backgroundColor = "#ffffff";
+      });
+      ele2.forEach((e) => {
         e.style.backgroundColor = "#ffffff";
       });
       fet.forEach((e) => {

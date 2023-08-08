@@ -982,7 +982,8 @@ footer .made-by a:hover {
   max-height: 80px;
   margin: auto;
 }
-.cart-area table .css-y8ay40-MuiTableCell-root {
+.cart-area table .css-y8ay40-MuiTableCell-root,
+.cart-area table .css-nw3mfz {
   background-color: var(--heading-color);
   color: var(--white-color);
 }
@@ -990,7 +991,8 @@ footer .made-by a:hover {
   background-color: var(--heading-color);
   color: white;
 }
-.cart-area table .css-1yhpg23-MuiTableCell-root {
+.cart-area table .css-1yhpg23-MuiTableCell-root,
+.cart-area table .css-1a4b21o {
   color: var(--black-color);
 }
 @media (max-width: 639px) {
@@ -1044,7 +1046,8 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
 }
-.total .css-ag7rrr-MuiTypography-root {
+.total .css-ag7rrr-MuiTypography-root,
+.total .css-zq6grw {
   padding: 0 10px 10px;
   border-bottom: 1px solid var(--button-color);
   color: var(--heading-color) !important;
@@ -1142,7 +1145,8 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-10wpov9-MuiTypography-root,
 .checkout .css-h93ljk-MuiTypography-root,
 .checkout .css-1xatcrf-MuiTypography-root,
-.checkout .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+.checkout .css-1x51dt5-MuiInputBase-input-MuiInput-input,
+.checkout .css-mqt2s5 {
   color: var(--black-color);
 }
 .checkout .css-1hv8oq8-MuiStepLabel-label.Mui-active,
@@ -1155,7 +1159,8 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-xzs2lf-MuiTypography-root {
   color: var(--heading-color);
 }
-.checkout .css-126nd9x-MuiPaper-root {
+.checkout .css-126nd9x-MuiPaper-root,
+.checkout .css-du0t4a {
   background-color: var(--primary-color);
 }
 .checkout .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active,
