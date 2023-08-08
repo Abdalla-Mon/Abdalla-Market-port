@@ -5,16 +5,18 @@
   background-color: $teritary-color;
   min-height: 100vh;
 
-  .css-8bjq0v-MuiButtonBase-root-MuiButton-root {
+  .css-8bjq0v-MuiButtonBase-root-MuiButton-root,
+  .css-1o2s33n {
     background-color: $button-color;
     &:hover {
-      background-color: $btn-hover-color;
+      background-color: $button-color;
     }
   }
-  .css-1dym4ij-MuiButtonBase-root-MuiButton-root {
+  .css-1dym4ij-MuiButtonBase-root-MuiButton-root,
+  .css-ig9v6z {
     color: $button-color;
     &:hover {
-      background-color: #75543341;
+      background-color: $button-color;
     }
   }
   .css-zow5z4-MuiGrid-root > .MuiGrid-item,
@@ -77,7 +79,18 @@
   .css-1x51dt5-MuiInputBase-input-MuiInput-input,
   .css-mqt2s5,
   .css-9l3uo3,
-  .css-mnn31 {
+  .css-mnn31,
+  .css-9l3uo3,
+  .css-c7dfze,
+  .css-4ff9q7.Mui-completed,
+  .css-c7dfze,
+  .css-1tqv6h6,
+  .css-mbfek,
+  .css-68o8xu,
+  .css-1y9c6uq,
+  .css-t1nuxs,
+  .css-16rlg6l,
+  .css-1yqxwau {
     color: $black-color;
   }
   .css-1hv8oq8-MuiStepLabel-label.Mui-active,
@@ -90,7 +103,11 @@
   .css-xzs2lf-MuiTypography-root,
   .css-348fk2.Mui-focused,
   .css-1ut7tvo,
-  .css-4an0mh {
+  .css-4an0mh,
+  .css-4ff9q7.Mui-active,
+  .css-1ogt7qy,
+  .css-4an0mh,
+  .css-yb0lig {
     color: $heading-color;
   }
 

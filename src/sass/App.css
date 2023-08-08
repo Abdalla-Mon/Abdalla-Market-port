@@ -1080,17 +1080,21 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--teritary-color);
   min-height: 100vh;
 }
-.checkout .css-8bjq0v-MuiButtonBase-root-MuiButton-root {
+.checkout .css-8bjq0v-MuiButtonBase-root-MuiButton-root,
+.checkout .css-1o2s33n {
   background-color: var(--button-color);
 }
-.checkout .css-8bjq0v-MuiButtonBase-root-MuiButton-root:hover {
-  background-color: var(--btn-hover-color);
+.checkout .css-8bjq0v-MuiButtonBase-root-MuiButton-root:hover,
+.checkout .css-1o2s33n:hover {
+  background-color: var(--button-color);
 }
-.checkout .css-1dym4ij-MuiButtonBase-root-MuiButton-root {
+.checkout .css-1dym4ij-MuiButtonBase-root-MuiButton-root,
+.checkout .css-ig9v6z {
   color: var(--button-color);
 }
-.checkout .css-1dym4ij-MuiButtonBase-root-MuiButton-root:hover {
-  background-color: rgba(117, 84, 51, 0.2549019608);
+.checkout .css-1dym4ij-MuiButtonBase-root-MuiButton-root:hover,
+.checkout .css-ig9v6z:hover {
+  background-color: var(--button-color);
 }
 .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select,
 .checkout .css-1h77wgb > .MuiGrid-item select {
@@ -1151,7 +1155,18 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-1x51dt5-MuiInputBase-input-MuiInput-input,
 .checkout .css-mqt2s5,
 .checkout .css-9l3uo3,
-.checkout .css-mnn31 {
+.checkout .css-mnn31,
+.checkout .css-9l3uo3,
+.checkout .css-c7dfze,
+.checkout .css-4ff9q7.Mui-completed,
+.checkout .css-c7dfze,
+.checkout .css-1tqv6h6,
+.checkout .css-mbfek,
+.checkout .css-68o8xu,
+.checkout .css-1y9c6uq,
+.checkout .css-t1nuxs,
+.checkout .css-16rlg6l,
+.checkout .css-1yqxwau {
   color: var(--black-color);
 }
 .checkout .css-1hv8oq8-MuiStepLabel-label.Mui-active,
@@ -1164,7 +1179,11 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-xzs2lf-MuiTypography-root,
 .checkout .css-348fk2.Mui-focused,
 .checkout .css-1ut7tvo,
-.checkout .css-4an0mh {
+.checkout .css-4an0mh,
+.checkout .css-4ff9q7.Mui-active,
+.checkout .css-1ogt7qy,
+.checkout .css-4an0mh,
+.checkout .css-yb0lig {
   color: var(--heading-color);
 }
 .checkout .css-126nd9x-MuiPaper-root,
