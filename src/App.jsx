@@ -23,7 +23,7 @@ import PageLoader from "./Component/PageLoader";
 
 function App() {
   let theme = window.localStorage.getItem("theme");
-  document.querySelector("#root").className = theme || "";
+  // document.querySelector("#root").className = theme || "";
   const data = useSelector((state) => state.data);
   const [load, setLoad] = useState(true);
   const dispatch = useDispatch();

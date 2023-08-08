@@ -267,7 +267,7 @@ function Setting() {
   ];
 
   function settinColor(theme, property, colors) {
-    window.localStorage.setItem("theme", theme);
+    // window.localStorage.setItem("theme", theme);
     let ele = document.querySelectorAll(
       ".trending .css-1ri6ub7-MuiPaper-root-MuiCard-root"
     );
