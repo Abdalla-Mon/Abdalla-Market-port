@@ -17,7 +17,8 @@
       background-color: #75543341;
     }
   }
-  .css-zow5z4-MuiGrid-root > .MuiGrid-item {
+  .css-zow5z4-MuiGrid-root > .MuiGrid-item,
+  .css-1h77wgb > .MuiGrid-item {
     select {
       width: -webkit-fill-available;
       height: 100%;
@@ -74,7 +75,9 @@
   .css-h93ljk-MuiTypography-root,
   .css-1xatcrf-MuiTypography-root,
   .css-1x51dt5-MuiInputBase-input-MuiInput-input,
-  .css-mqt2s5 {
+  .css-mqt2s5,
+  .css-9l3uo3,
+  .css-mnn31 {
     color: $black-color;
   }
   .css-1hv8oq8-MuiStepLabel-label.Mui-active,
@@ -84,7 +87,10 @@
   .css-149xwtl-MuiTypography-root,
   .css-18k87ye-MuiTypography-root,
   .css-d3wcwz-MuiTypography-root,
-  .css-xzs2lf-MuiTypography-root {
+  .css-xzs2lf-MuiTypography-root,
+  .css-348fk2.Mui-focused,
+  .css-1ut7tvo,
+  .css-4an0mh {
     color: $heading-color;
   }
 
@@ -95,7 +101,8 @@
   .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active,
   .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
   .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed.css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
-  .css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  .css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate,
+  .checkout .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
     color: $button-color;
   }
   .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {

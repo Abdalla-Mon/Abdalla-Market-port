@@ -1092,16 +1092,19 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-1dym4ij-MuiButtonBase-root-MuiButton-root:hover {
   background-color: rgba(117, 84, 51, 0.2549019608);
 }
-.checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select {
+.checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select,
+.checkout .css-1h77wgb > .MuiGrid-item select {
   width: -webkit-fill-available;
   height: 100%;
   background-color: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.42);
 }
-.checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select:hover {
+.checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select:hover,
+.checkout .css-1h77wgb > .MuiGrid-item select:hover {
   cursor: pointer;
 }
-.checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select:focus-visible {
+.checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select:focus-visible,
+.checkout .css-1h77wgb > .MuiGrid-item select:focus-visible {
   outline: none;
 }
 .checkout .date-input {
@@ -1146,7 +1149,9 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-h93ljk-MuiTypography-root,
 .checkout .css-1xatcrf-MuiTypography-root,
 .checkout .css-1x51dt5-MuiInputBase-input-MuiInput-input,
-.checkout .css-mqt2s5 {
+.checkout .css-mqt2s5,
+.checkout .css-9l3uo3,
+.checkout .css-mnn31 {
   color: var(--black-color);
 }
 .checkout .css-1hv8oq8-MuiStepLabel-label.Mui-active,
@@ -1156,7 +1161,10 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-149xwtl-MuiTypography-root,
 .checkout .css-18k87ye-MuiTypography-root,
 .checkout .css-d3wcwz-MuiTypography-root,
-.checkout .css-xzs2lf-MuiTypography-root {
+.checkout .css-xzs2lf-MuiTypography-root,
+.checkout .css-348fk2.Mui-focused,
+.checkout .css-1ut7tvo,
+.checkout .css-4an0mh {
   color: var(--heading-color);
 }
 .checkout .css-126nd9x-MuiPaper-root,
@@ -1166,7 +1174,8 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active,
 .checkout .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
 .checkout .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed.css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
-.checkout .css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+.checkout .css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate,
+.checkout .checkout .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
   color: var(--button-color);
 }
 .checkout .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
