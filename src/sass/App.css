@@ -365,7 +365,8 @@
   margin-bottom: 20px !important;
   color: var(--heading-color);
 }
-.trending .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+.trending .css-1ri6ub7-MuiPaper-root-MuiCard-root,
+.trending .css-w88nxk {
   background-color: var(--white-color);
 }
 .trending .card {
@@ -456,7 +457,8 @@
 .navbar a.active {
   color: var(--heading-color);
 }
-.navbar .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+.navbar .css-1e6y48t-MuiButtonBase-root-MuiButton-root,
+.navbar .css-1ujsas3 {
   padding: 0 !important;
   min-width: -moz-fit-content !important;
   min-width: fit-content !important;
@@ -683,7 +685,9 @@ footer .made-by a:hover {
 }
 
 .products .css-1ri6ub7-MuiPaper-root-MuiCard-root,
-.bestseller .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+.products .css-w88nxk,
+.bestseller .css-1ri6ub7-MuiPaper-root-MuiCard-root,
+.bestseller .css-w88nxk {
   background-color: var(--primary-color);
 }
 

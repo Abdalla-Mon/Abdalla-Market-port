@@ -1,7 +1,8 @@
 @use "../varibales/varibales" as *;
 .products,
 .bestseller {
-  .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  .css-1ri6ub7-MuiPaper-root-MuiCard-root,
+  .css-w88nxk {
     background-color: $primary-color;
   }
 }
