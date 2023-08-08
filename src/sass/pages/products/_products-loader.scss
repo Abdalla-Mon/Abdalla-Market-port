@@ -1,0 +1,16 @@
+@use "../../varibales/varibales" as *;
+
+.products {
+  .filter-loader {
+    padding: 20px;
+  }
+  .products-area-loader {
+    .tabs-loader {
+      flex-direction: row !important;
+      span {
+        padding: 15px 20px;
+        margin: 0 5px 0;
+      }
+    }
+  }
+}

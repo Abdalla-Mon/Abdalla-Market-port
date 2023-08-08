@@ -1,0 +1,105 @@
+@use "../../varibales/varibales" as *;
+
+footer {
+  padding-top: 40px;
+  background-color: $button-color;
+  color: $white-color;
+  .container {
+    padding: 0 10px 15px;
+    @media (min-width: 640px) {
+      padding: 0 40px 15px;
+    }
+  }
+  .footer-logo {
+    color: $primary-color !important;
+    margin-bottom: 10px;
+  }
+  .links {
+    text-transform: capitalize;
+    > div {
+      @media (min-width: 640px) {
+        width: 50%;
+      }
+      padding-right: 10px;
+    }
+    .links-1,
+    .links-2 {
+      a,
+      span {
+        cursor: pointer;
+        &:hover {
+          color: $primary2-color;
+        }
+      }
+    }
+  }
+
+  form {
+    .input {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+  .css-v4u5dn-MuiInputBase-root-MuiInput-root:before,
+  .css-v4u5dn-MuiInputBase-root-MuiInput-root:hover:not(
+      .Mui-disabled,
+      .Mui-error
+    ):before {
+    border-color: $teritary-color;
+    border: none;
+  }
+  .css-v4u5dn-MuiInputBase-root-MuiInput-root,
+  .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: $white-color;
+  }
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    color: $white-color;
+    padding-left: 4px;
+  }
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: $primary2-color;
+  }
+  .css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+    border: none;
+  }
+  .css-sghohy-MuiButtonBase-root-MuiButton-root,
+  .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: $primary2-color;
+    color: $black-color;
+  }
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    border-left: 1px solid;
+    padding-left: 4px;
+  }
+  .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    padding-left: 10px !important;
+  }
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus {
+    color: $primary2-color;
+  }
+  .footer-icons {
+    padding: 20px 0;
+
+    a {
+      padding: 0 12px;
+      &:hover {
+        svg {
+          color: $primary2-color;
+        }
+      }
+    }
+    svg {
+      font-size: 2rem;
+    }
+  }
+  .made-by {
+    padding: 15px;
+    border-top: 1px solid $primary2-color;
+    a {
+      color: $primary2-color;
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}

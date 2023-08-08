@@ -1,0 +1,30 @@
+@use "../../varibales//varibales" as *;
+
+.features {
+  background-color: $teritary-color;
+  padding: 40px 0;
+  .grid {
+    padding: 10px;
+  }
+  .feature-ele {
+    padding: 20px;
+    @media (min-wdith: 640px) {
+      padding: 30px 20px;
+    }
+    background-color: $secondary-color;
+    svg {
+      padding: 10px;
+      color: $button-color;
+    }
+    h3 {
+      color: $heading-color;
+    }
+    @media (max-width: 639px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  p {
+    color: $black-color;
+  }
+}

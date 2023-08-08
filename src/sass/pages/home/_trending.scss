@@ -1,0 +1,22 @@
+@use "../../varibales/varibales" as *;
+
+.trending {
+  padding: 50px 0;
+  background-color: $primary-color;
+  .container > h4 {
+    margin-bottom: 20px !important;
+    color: $heading-color;
+  }
+  .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    background-color: $white-color;
+  }
+  .card {
+    text-align: center;
+    .card-desc {
+      display: none;
+    }
+    .card-btn button {
+      margin: auto;
+    }
+  }
+}

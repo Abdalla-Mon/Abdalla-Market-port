@@ -1,0 +1,20 @@
+@mixin sm-mobile-media {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin mobile-media {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+@mixin lap-media {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+@mixin pc-media {
+  @media (min-width: 992px) {
+    @content;
+  }
+}

@@ -1,0 +1,124 @@
+@use "../../varibales/varibales" as *;
+
+.cart-area {
+  padding: 100px 0px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $teritary-color;
+  .cart-heading {
+    padding: 50px;
+    color: $heading-color;
+    text-align: center;
+  }
+  .cart-table {
+    padding: 10px;
+  }
+  h4 {
+    padding: 100px;
+  }
+  table {
+    background-color: $primary-color;
+    img {
+      max-width: 80px;
+      max-height: 80px;
+      margin: auto;
+    }
+    .css-y8ay40-MuiTableCell-root {
+      background-color: $heading-color;
+      color: $white-color;
+    }
+    .css-dwuj3p-MuiTableCell-root {
+      background-color: $heading-color;
+
+      color: white;
+    }
+    .css-1yhpg23-MuiTableCell-root {
+      color: $black-color;
+    }
+    .css-1ex1afd-MuiTableCell-root,
+    .css-1yhpg23-MuiTableCell-root {
+      @media (max-width: 639px) {
+        padding: 10px;
+      }
+    }
+    .update-qty {
+      color: $heading-color;
+
+      font-weight: bold;
+    }
+    .css-i4bv87-MuiSvgIcon-root {
+      color: $button-color;
+      &:hover {
+        color: $btn-hover-color;
+      }
+    }
+  }
+  .css-18fq97s-MuiTableContainer-root {
+    &::-webkit-scrollbar {
+      background-color: $teritary-color;
+      width: 1em;
+    }
+
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 3px #75543363;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $heading-color;
+      // outline: 1px solid $hover-color;
+    }
+  }
+}
+body {
+  &::-webkit-scrollbar {
+    background-color: $teritary-color;
+    width: 0.8em;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px #75543363;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $heading-color;
+    // outline: 1px solid $hover-color;
+  }
+}
+.total {
+  max-width: 300px;
+  margin-left: auto;
+  padding: 10px 0 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  @media (max-width: 639px) {
+    margin: auto;
+    text-align: center;
+  }
+  .css-ag7rrr-MuiTypography-root {
+    padding: 0 10px 10px;
+    border-bottom: 1px solid $button-color;
+    color: $heading-color !important;
+  }
+  .total-body {
+    padding: 10px 15px 0;
+  }
+  .total-area {
+    color: $black-color;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $button-color;
+  }
+  .total-btn {
+    a {
+      width: 100%;
+      display: block;
+      padding: 8px 22px;
+      color: $white-color;
+    }
+    padding-top: 10px;
+    button {
+      padding: 0 !important;
+      width: 100% !important;
+      background-color: $button-color !important;
+    }
+  }
+}

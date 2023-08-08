@@ -1,0 +1,23 @@
+@use "../varibales/varibales" as *;
+.shop-now {
+  margin-top: 15px !important;
+  background-color: $button-color !important;
+  color: $white-color !important;
+  width: fit-content;
+
+  &:hover {
+    background-color: $btn-hover-color;
+    padding-left: 30px;
+  }
+  transition: 0.3s !important;
+  .shopping-icon {
+    margin-left: 10px;
+  }
+}
+.add-to-cart-btn {
+  color: $button-color !important;
+  margin-bottom: 5px !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #75543318 !important;
+}

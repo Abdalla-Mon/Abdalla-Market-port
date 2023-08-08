@@ -1,0 +1,101 @@
+@use "../../varibales/varibales" as *;
+.offers {
+  background-color: $teritary-color;
+  padding: 0 0 30px;
+  .offer-heading {
+    color: $heading-color;
+  }
+  p {
+    color: $black-color;
+  }
+  .grid {
+    padding: 20px;
+  }
+  .offer-fruit {
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product17-free-img.jpg");
+  }
+
+  .offer-vegetable {
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product13-free-img.jpg");
+  }
+
+  .offer-organic {
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product11-free-img.jpg");
+  }
+  .offer-back {
+    background-color: transparent;
+    .offer-back-lay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: $primary2-color;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      opacity: 0.6;
+    }
+    &::after {
+      // content: "";
+      // position: absolute;
+      // width: 100%;
+      // height: 100%;
+      // background-color: $primary2-color;
+      // z-index: 1;
+      // left: 0;
+      // top: 0;
+      // opacity: 0.6;
+    }
+  }
+  .offer {
+    padding: 20px 20px 160px;
+    z-index: 2;
+  }
+  .offer-bar {
+    background-color: $button-color;
+
+    .container {
+      div {
+        position: relative;
+        h4 {
+          color: $white-color;
+          @media (max-width: 767px) {
+            font-weight: bold;
+            font-size: 1.5rem !important;
+          }
+          @media (min-width: 640px) {
+            width: 60%;
+          }
+        }
+        padding: 40px 20px;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      &::after {
+        content: "";
+        background-color: $button-color;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        clip-path: polygon(0% 0%, 100% 0%, 50% 50%);
+      }
+    }
+
+    .shop-now {
+      background-color: $primary2-color !important;
+      color: $heading-color;
+      margin-top: 0;
+
+      @media (max-width: 639px) {
+        margin: 12px auto 0;
+      }
+    }
+  }
+  > h5 {
+    padding: 20px;
+    font-weight: bold;
+    color: $heading-color;
+  }
+}

@@ -1,0 +1,44 @@
+@use "../varibales/varibales" as *;
+.products,
+.bestseller {
+  .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    background-color: $primary-color;
+  }
+}
+
+.card {
+  .MuiTypography-h5 {
+    @media (max-width: 991px) {
+      height: 52px;
+    }
+    font-size: 1.3rem;
+    color: $heading-color;
+  }
+  height: fit-content !important;
+  img {
+    height: 250px !important;
+  }
+  .card-content {
+    padding: 10px !important;
+  }
+  .card-desc {
+    color: $black-color;
+  }
+  .card-btn {
+    padding-top: 0 !important;
+
+    button {
+      color: $button-color;
+      &:hover {
+        background-color: rgb(212 163 115 / 10%) !important;
+      }
+    }
+  }
+  .card-price {
+    font-weight: bold;
+  }
+  .show-more {
+    color: $button-color;
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,107 @@
+@forward "./product-desc";
+@forward "./products-loader";
+@use "../../varibales/varibales" as *;
+
+.products {
+  background-color: $teritary-color;
+  padding: 65px 0 0;
+  min-height: 100vh;
+
+  .products-area {
+    flex: 3;
+    padding: 20px 20px;
+    .css-ft4jij-MuiDivider-root,
+    .css-166ji9n-MuiDivider-root {
+      border-color: $button-color;
+    }
+    .tabs-container {
+      margin: 10px 0;
+    }
+    .tabs-container .tabs-pagination > a {
+      background-color: $button-color;
+      margin: 0 5px 0;
+      display: inline-block;
+      color: $white-color;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      opacity: 0.6;
+      &.active {
+        opacity: 1;
+      }
+      &:hover {
+        background-color: $btn-hover-color;
+      }
+    }
+  }
+  .card {
+    height: auto !important;
+  }
+  .css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after {
+    border-color: $button-color !important;
+  }
+  .css-nnid7-MuiSlider-valueLabel {
+    background-color: $button-color;
+  }
+  .css-i4bv87-MuiSvgIcon-root,
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+  .css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+    color: $button-color;
+  }
+  .filter-btn,
+  .sorting-btn {
+    background-color: $button-color !important;
+    display: block !important;
+    margin: 10px auto 0;
+  }
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: $heading-color !important;
+  }
+}
+.sorting-area {
+  display: flex;
+  justify-content: flex-end;
+  .css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+    min-width: 130px;
+    text-transform: capitalize;
+  }
+  .sorting-btn {
+    margin-left: 10px;
+    opacity: 0;
+    cursor: default;
+    position: absolute;
+    z-index: -1;
+  }
+  .css-6hp17o-MuiList-root-MuiMenu-list {
+    text-transform: capitalize;
+  }
+}
+.filter {
+  flex: 1;
+  padding: 30px 20px 20px;
+  text-align: center;
+  .search-form {
+    margin: auto;
+    max-width: 300px;
+  }
+  @media (max-width: 640px) {
+    padding: 20px 10px;
+  }
+  .range-filter {
+    max-width: 300px;
+    margin: 10px auto 0;
+    .css-187mznn-MuiSlider-root {
+      color: $button-color;
+    }
+  }
+  .range-price {
+    > div {
+      margin-right: 20px;
+      margin-bottom: 20px;
+      color: $heading-color;
+      display: inline;
+    }
+  }
+}

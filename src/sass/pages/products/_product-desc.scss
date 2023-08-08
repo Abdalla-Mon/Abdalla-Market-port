@@ -1,0 +1,121 @@
+@use "../../varibales/varibales" as *;
+
+.product-desc {
+  background-color: $primary2-color;
+  min-height: 100vh;
+  padding-top: 100px;
+  @media (max-width: 639px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sprod {
+    padding: 50px 10px;
+    background-color: $primary-color;
+    border-bottom: 1px solid $heading-color;
+  }
+  h5 {
+    color: $heading-color;
+  }
+  .prod-price {
+    color: $button-color;
+  }
+  .rating {
+    svg {
+      color: $button-color;
+      margin-left: 5px;
+    }
+  }
+  .cat {
+    color: $black-color !important;
+    span {
+      color: $button-color;
+      font-weight: bold;
+    }
+  }
+
+  .product-pc {
+    .product-img {
+      padding: 0 20px;
+      img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+        max-height: 400px;
+        max-width: 400px;
+      }
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .rating {
+      margin-bottom: 15px;
+    }
+    .cat {
+      margin-top: 15px;
+    }
+  }
+  .product-mob {
+    .product-img {
+      padding: 0 20px 20px 0;
+    }
+    img {
+      padding: 0 20px 0;
+      width: 50%;
+    }
+    .product-desc-text {
+      span {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      p {
+        padding: 10px;
+      }
+    }
+    .rating {
+      margin: 5px 0 10px;
+    }
+    .cat {
+      margin-top: 10px;
+    }
+  }
+}
+.product-desc {
+  .related-products {
+    padding: 40px 0;
+    h4 {
+      color: $heading-color;
+      margin-bottom: 30px;
+    }
+  }
+  .related-grid {
+    @media (min-width: 640px) {
+      padding: 0 20px 20px;
+    }
+    .card {
+      background-color: $primary-color;
+      img {
+        height: 200px !important;
+      }
+      .card-content {
+        padding: 10px !important;
+      }
+      .card-btn {
+        padding-top: 0 !important;
+      }
+    }
+    .card-desc {
+      color: $black-color;
+    }
+    .MuiTypography-h5 {
+      @media (max-width: 639px) {
+        font-size: 1.5rem !important;
+        height: 65px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

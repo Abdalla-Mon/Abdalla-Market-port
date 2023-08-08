@@ -1,0 +1,106 @@
+@use "../../varibales/varibales" as *;
+
+.about {
+  min-height: 100vh;
+  padding-top: 65px;
+  p {
+    color: $black-color !important;
+  }
+  .about-landing {
+    min-height: 100vh;
+    align-items: center;
+    padding: 50px 0;
+  }
+  h3 {
+    color: $heading-color !important;
+    margin-bottom: 30px;
+  }
+  .about-hello {
+    @media (min-width: 640px) {
+      width: 48%;
+    }
+    @media (max-width: 639px) {
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    p {
+      max-width: 400px;
+      letter-spacing: 1.6px;
+    }
+  }
+  .about-img {
+    width: 48%;
+
+    @media (max-width: 639px) {
+      width: 100%;
+    }
+  }
+  .divider-div {
+    padding: 20px;
+    background-color: $button-color;
+    color: $white-color;
+  }
+  .we-bring-text {
+    padding: 50px 20px;
+    text-align: center;
+    @media (min-width: 640px) {
+      width: 50%;
+    }
+
+    h5 {
+      margin-bottom: 10px;
+      color: $button-color;
+    }
+    p {
+      letter-spacing: 1.7px;
+    }
+  }
+  .we-bring-photo {
+    @media (min-width: 640px) {
+      max-height: 600px;
+      width: 50%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      @media (max-width: 639px) {
+        max-width: 100%;
+        height: 400px;
+      }
+    }
+  }
+  .our-team {
+    padding: 60px 10px;
+    overflow: hidden;
+  }
+  .team {
+    cursor: pointer;
+    background-color: $teritary-color;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+
+    > div {
+      padding: 20px;
+      text-align: center;
+      .css-7pbt6e-MuiAvatar-root {
+        margin: auto;
+        margin-bottom: 5px;
+      }
+      h5 {
+        color: $heading-color;
+      }
+      h6 {
+        margin: 5px;
+        color: $button-color !important;
+      }
+    }
+  }
+}

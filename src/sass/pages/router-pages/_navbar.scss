@@ -1,0 +1,160 @@
+@use "../../varibales/_varibales.scss" as *;
+.navbar {
+  .menu-icon {
+    @media (min-width: 640px) {
+      display: none !important;
+    }
+  }
+  background-color: $primary2-color !important;
+  color: $black-color !important;
+  svg,
+  .cart-count {
+    color: $heading-color;
+    &:hover {
+      color: $hover-color !important;
+    }
+  }
+  .cart-setting {
+    display: flex !important;
+  }
+  a {
+    &:hover {
+      color: $hover-color !important;
+    }
+    &.active {
+      color: $heading-color;
+    }
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    padding: 0 !important;
+    min-width: fit-content !important;
+  }
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: $heading-color;
+  }
+}
+.MuiDrawer-paper {
+  background-color: $secondary-color !important;
+}
+.navlink-mob {
+  display: block;
+  padding: inherit;
+  &:hover {
+    color: $btn-hover-color;
+  }
+  &.active {
+    color: $heading-color;
+  }
+  transition: 0.3s;
+}
+.logo {
+  font-size: 1.5rem;
+  color: $heading-color;
+  @media (max-width: 300px) {
+    font-size: 1rem;
+  }
+}
+
+.logo-mob {
+  font-size: 1.5rem;
+  color: $heading-color;
+}
+.css-k008qs {
+  .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    position: relative;
+  }
+}
+
+.css-k008qs {
+  position: absolute !important;
+  width: 100%;
+}
+.show-nav {
+  .css-k008qs {
+    .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+      animation: showNav 1s ease-in-out forwards;
+      -webkit-animation: showNav 1s ease-in-out forwards;
+    }
+  }
+}
+.hide-nav {
+  .css-k008qs {
+    .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+      animation: hideNav 0.5s ease-in-out forwards, transBack 0.5s 1.5s forwards;
+      -webkit-animation: hideNav 0.5s ease-in-out forwards,
+        transBack 0.5s 1.5s forwards;
+    }
+  }
+}
+@keyframes showNav {
+  0% {
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    position: fixed;
+  }
+  100% {
+    position: fixed;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+}
+@keyframes hideNav {
+  0% {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    position: fixed;
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    position: fixed;
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    position: relative;
+  }
+}
+@keyframes transBack {
+  0% {
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,55 @@
+@use "../varibales/varibales" as *;
+.bestseller {
+  .swiper {
+    height: fit-content;
+    padding: 20px 20px 30px !important;
+    @media (max-width: 439px) {
+      padding: 0 0 30px !important;
+    }
+    flex: 2;
+  }
+
+  .swiper-mob {
+    @media (min-width: 440px) {
+      display: none !important;
+    }
+    .card .MuiTypography-h5 {
+      height: auto !important;
+    }
+  }
+  .swiper-lab {
+    @media (max-width: 439px) {
+      display: none !important;
+    }
+    @media (min-width: 1024px) {
+      display: none !important;
+    }
+  }
+  .swiper-pc {
+    @media (max-width: 1023px) {
+      display: none !important;
+    }
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: $button-color;
+  }
+  .swiper-pagination {
+    bottom: 0 !important;
+  }
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $button-color !important;
+  }
+  .card {
+    @media (max-width: 640px) {
+      margin: auto;
+    }
+    .card-btn {
+      display: none !important;
+    }
+  }
+}
