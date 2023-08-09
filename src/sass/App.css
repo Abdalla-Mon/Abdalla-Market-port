@@ -923,12 +923,15 @@ footer .made-by a:hover {
 }
 .products .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
 .products .css-o3ukdw::after,
-.products .css-1utq5rl {
+.products .css-1utq5rl,
+.products .css-1t2bqnt,
+.products .css-7drnjp {
   color: var(--heading-color) !important;
 }
 .products .css-348fk2,
 .products .css-o3ukdw,
-.products .css-o3ukdw::before {
+.products .css-o3ukdw::before,
+.products .css-b04pc9 {
   color: var(--black-color);
 }
 .products .css-348fk2.Mui-focused {
