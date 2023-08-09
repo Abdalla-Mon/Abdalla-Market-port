@@ -150,9 +150,7 @@ export default function Cart({ data }) {
             <div className="cart-table">
               <StickyHeadTable rows={rows} />
             </div>
-            <div className="total">
-              <SubTotal />
-            </div>
+            <div className="total">{rows.length > 0 ? <SubTotal /> : null}</div>
           </div>
         </section>
       ) : null}

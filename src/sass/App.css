@@ -812,8 +812,10 @@ footer .made-by a:hover {
 }
 .product-desc .product-mob .product-desc-text p {
   padding: 10px;
+  color: var(--black-color);
 }
 .product-desc .product-mob .rating {
+  color: var(--black-color);
   margin: 5px 0 10px;
 }
 .product-desc .product-mob .cat {
@@ -922,7 +924,6 @@ footer .made-by a:hover {
   margin: 10px auto 0;
 }
 .products .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
-.products .css-o3ukdw::after,
 .products .css-1utq5rl,
 .products .css-1t2bqnt,
 .products .css-7drnjp {
@@ -930,13 +931,17 @@ footer .made-by a:hover {
 }
 .products .css-348fk2,
 .products .css-o3ukdw,
-.products .css-o3ukdw::before,
 .products .css-b04pc9,
-.products .css-18m8r0v {
+.products .css-18m8r0v,
+.products .css-mqt2s5 {
   color: var(--black-color);
 }
 .products .css-348fk2.Mui-focused {
   color: var(--heading-color);
+}
+.products .css-o3ukdw::after,
+.products .css-o3ukdw::before {
+  border: var(--heading-color);
 }
 
 .sorting-area {
@@ -1130,7 +1135,8 @@ body::-webkit-scrollbar-thumb {
   width: -webkit-fill-available;
   height: 100%;
   background-color: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  border-bottom: 1px solid var(--black-color);
+  color: var(--black-color);
 }
 .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select:hover,
 .checkout .css-1h77wgb > .MuiGrid-item select:hover {
@@ -1145,7 +1151,7 @@ body::-webkit-scrollbar-thumb {
   width: -webkit-fill-available;
   padding: 5px 0;
   background-color: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  border-bottom: 1px solid var(--black-color);
 }
 .checkout .date-input:focus-visible {
   outline: none;
@@ -1205,10 +1211,13 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-1y9c6uq,
 .checkout .css-t1nuxs,
 .checkout .css-16rlg6l,
-.checkout .css-1yqxwau {
+.checkout .css-1yqxwau,
+.checkout .css-mnn31,
+.checkout .css-9l3uo3,
+.checkout .css-1o2s33n {
   color: var(--black-color);
 }
-.checkout .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select {
+.checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select {
   color: var(--black-color);
   border-color: var(--black-color);
 }
@@ -1254,7 +1263,7 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
 .checkout .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed.css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
 .checkout .css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate,
-.checkout .checkout .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
+.checkout .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
   color: var(--button-color);
 }
 .checkout .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {

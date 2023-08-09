@@ -25,7 +25,8 @@
       width: -webkit-fill-available;
       height: 100%;
       background-color: transparent;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+      border-bottom: 1px solid $black-color;
+      color: $black-color;
       &:hover {
         cursor: pointer;
       }
@@ -39,7 +40,7 @@
     width: -webkit-fill-available;
     padding: 5px 0;
     background-color: transparent;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    border-bottom: 1px solid $black-color;
     &:focus-visible {
       outline: none;
     }
@@ -100,10 +101,13 @@
   .css-1y9c6uq,
   .css-t1nuxs,
   .css-16rlg6l,
-  .css-1yqxwau {
+  .css-1yqxwau,
+  .css-mnn31,
+  .css-9l3uo3,
+  .css-1o2s33n {
     color: $black-color;
   }
-  .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select {
+  .css-zow5z4-MuiGrid-root > .MuiGrid-item select {
     color: $black-color;
     border-color: $black-color;
   }
@@ -150,7 +154,7 @@
   .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
   .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed.css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
   .css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate,
-  .checkout .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
+  .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
     color: $button-color;
   }
   .css-l4u8b9-MuiInputBase-root-MuiInput-root:after {

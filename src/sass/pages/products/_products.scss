@@ -57,7 +57,6 @@
     margin: 10px auto 0;
   }
   .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
-  .css-o3ukdw::after,
   .css-1utq5rl,
   .css-1t2bqnt,
   .css-7drnjp {
@@ -65,13 +64,17 @@
   }
   .css-348fk2,
   .css-o3ukdw,
-  .css-o3ukdw::before,
   .css-b04pc9,
-  .css-18m8r0v {
+  .css-18m8r0v,
+  .css-mqt2s5 {
     color: $black-color;
   }
   .css-348fk2.Mui-focused {
     color: $heading-color;
+  }
+  .css-o3ukdw::after,
+  .css-o3ukdw::before {
+    border: $heading-color;
   }
 }
 .sorting-area {
