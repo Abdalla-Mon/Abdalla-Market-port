@@ -25,6 +25,8 @@
         position: relative;
         z-index: 2;
         &:hover {
+          color: $black-color;
+
           &::before {
             width: 100%;
             background-color: $primary2-color;

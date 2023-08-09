@@ -44,37 +44,49 @@ footer {
   .css-v4u5dn-MuiInputBase-root-MuiInput-root:hover:not(
       .Mui-disabled,
       .Mui-error
-    ):before {
+    ):before,
+  .css-zrqpq1::before,
+  .css-zrqpq1:hover:not(.Mui-disabled, .Mui-error)::before {
     border-color: $teritary-color;
     border: none;
   }
   .css-v4u5dn-MuiInputBase-root-MuiInput-root,
-  .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
+  .css-mqt2s5,
+  .css-zrqpq1 {
     color: $white-color;
   }
-  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root,
+  .css-mqt2s5 {
     color: $white-color;
     padding-left: 4px;
   }
-  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+  .css-348fk2.Mui-focused {
     color: $primary2-color;
   }
-  .css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+  .css-v4u5dn-MuiInputBase-root-MuiInput-root:after,
+  .css-zrqpq1::after {
     border: none;
   }
   .css-sghohy-MuiButtonBase-root-MuiButton-root,
-  .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+  .css-sghohy-MuiButtonBase-root-MuiButton-root:hover,
+  .css-1hw9j7s,
+  .css-1hw9j7s:hover {
     background-color: $primary2-color;
     color: $black-color;
   }
-  .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input,
+  .css-mnn31 {
     border-left: 1px solid;
     padding-left: 4px;
   }
-  .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
+  .css-mqt2s5 {
     padding-left: 10px !important;
   }
-  .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus {
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus,
+  .css-mnn31:focus {
     color: $primary2-color;
   }
   .footer-icons {

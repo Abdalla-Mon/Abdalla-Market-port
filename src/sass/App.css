@@ -402,6 +402,9 @@
   position: relative;
   z-index: 2;
 }
+.customers .container .customer-paper > div:hover {
+  color: var(--black-color);
+}
 .customers .container .customer-paper > div:hover::before {
   width: 100%;
   background-color: var(--primary2-color);
@@ -628,37 +631,49 @@ footer form .input {
 }
 footer .css-v4u5dn-MuiInputBase-root-MuiInput-root:before,
 footer .css-v4u5dn-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled,
-.Mui-error):before {
+.Mui-error):before,
+footer .css-zrqpq1::before,
+footer .css-zrqpq1:hover:not(.Mui-disabled, .Mui-error)::before {
   border-color: var(--teritary-color);
   border: none;
 }
 footer .css-v4u5dn-MuiInputBase-root-MuiInput-root,
-footer .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+footer .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
+footer .css-mqt2s5,
+footer .css-zrqpq1 {
   color: var(--white-color);
 }
-footer .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+footer .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root,
+footer .css-mqt2s5 {
   color: var(--white-color);
   padding-left: 4px;
 }
-footer .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+footer .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+footer .css-348fk2.Mui-focused {
   color: var(--primary2-color);
 }
-footer .css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+footer .css-v4u5dn-MuiInputBase-root-MuiInput-root:after,
+footer .css-zrqpq1::after {
   border: none;
 }
 footer .css-sghohy-MuiButtonBase-root-MuiButton-root,
-footer .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+footer .css-sghohy-MuiButtonBase-root-MuiButton-root:hover,
+footer .css-1hw9j7s,
+footer .css-1hw9j7s:hover {
   background-color: var(--primary2-color);
   color: var(--black-color);
 }
-footer .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+footer .css-1x51dt5-MuiInputBase-input-MuiInput-input,
+footer .css-mnn31 {
   border-left: 1px solid;
   padding-left: 4px;
 }
-footer .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+footer .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
+footer .css-mqt2s5 {
   padding-left: 10px !important;
 }
-footer .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus {
+footer .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus,
+footer .css-mnn31:focus {
   color: var(--primary2-color);
 }
 footer .footer-icons {
