@@ -66,7 +66,6 @@
 .checkout {
   .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
   .css-1hv8oq8-MuiStepLabel-label,
-  .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select,
   .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label,
   .css-10hburv-MuiTypography-root,
   .css-83ijpv-MuiTypography-root,
@@ -89,12 +88,30 @@
   .css-t1nuxs,
   .css-16rlg6l,
   .css-1yqxwau,
-  .css-12rx5qu::before,
-  .css-12rx5qu:hover:not(.Mui-disabled, .Mui-error)::before.css-ig9v6z,
   .css-2fdkz6.Mui-completed,
   .css-1o2s33n,
-  .css-j7o63n {
+  .css-4ff9q7.Mui-completed,
+  .css-1o2s33n,
+  .css-c7dfze,
+  .css-j7o63n,
+  .css-1tqv6h6,
+  .css-mbfek,
+  .css-68o8xu,
+  .css-1y9c6uq,
+  .css-t1nuxs,
+  .css-16rlg6l,
+  .css-1yqxwau {
     color: $black-color;
+  }
+  .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select {
+    color: $black-color;
+    border-color: $black-color;
+  }
+  .css-12rx5qu::before,
+  .css-12rx5qu:hover:not(.Mui-disabled, .Mui-error)::before,
+  .css-o3ukdw::before,
+  .css-o3ukdw::after {
+    border-color: $black-color;
   }
   .css-ig9v6z {
     background-color: $button-color;
@@ -102,6 +119,9 @@
   }
   .css-2fdkz6.Mui-active {
     color: $button-color;
+  }
+  .css-12rx5qu::after {
+    border-color: $heading-color;
   }
   .css-1hv8oq8-MuiStepLabel-label.Mui-active,
   .css-1hv8oq8-MuiStepLabel-label.Mui-completed,
@@ -117,7 +137,6 @@
   .css-4ff9q7.Mui-active,
   .css-1ogt7qy,
   .css-yb0lig,
-  .css-12rx5qu::after,
   .css-2fdkz6,
   .css-348fk2 {
     color: $heading-color;

@@ -1171,7 +1171,6 @@ body::-webkit-scrollbar-thumb {
 
 .checkout .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
 .checkout .css-1hv8oq8-MuiStepLabel-label,
-.checkout .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select,
 .checkout .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label,
 .checkout .css-10hburv-MuiTypography-root,
 .checkout .css-83ijpv-MuiTypography-root,
@@ -1194,12 +1193,30 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-t1nuxs,
 .checkout .css-16rlg6l,
 .checkout .css-1yqxwau,
-.checkout .css-12rx5qu::before,
-.checkout .css-12rx5qu:hover:not(.Mui-disabled, .Mui-error)::before.css-ig9v6z,
 .checkout .css-2fdkz6.Mui-completed,
 .checkout .css-1o2s33n,
-.checkout .css-j7o63n {
+.checkout .css-4ff9q7.Mui-completed,
+.checkout .css-1o2s33n,
+.checkout .css-c7dfze,
+.checkout .css-j7o63n,
+.checkout .css-1tqv6h6,
+.checkout .css-mbfek,
+.checkout .css-68o8xu,
+.checkout .css-1y9c6uq,
+.checkout .css-t1nuxs,
+.checkout .css-16rlg6l,
+.checkout .css-1yqxwau {
   color: var(--black-color);
+}
+.checkout .checkout .css-zow5z4-MuiGrid-root > .MuiGrid-item select {
+  color: var(--black-color);
+  border-color: var(--black-color);
+}
+.checkout .css-12rx5qu::before,
+.checkout .css-12rx5qu:hover:not(.Mui-disabled, .Mui-error)::before,
+.checkout .css-o3ukdw::before,
+.checkout .css-o3ukdw::after {
+  border-color: var(--black-color);
 }
 .checkout .css-ig9v6z {
   background-color: var(--button-color);
@@ -1207,6 +1224,9 @@ body::-webkit-scrollbar-thumb {
 }
 .checkout .css-2fdkz6.Mui-active {
   color: var(--button-color);
+}
+.checkout .css-12rx5qu::after {
+  border-color: var(--heading-color);
 }
 .checkout .css-1hv8oq8-MuiStepLabel-label.Mui-active,
 .checkout .css-1hv8oq8-MuiStepLabel-label.Mui-completed,
@@ -1222,7 +1242,6 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-4ff9q7.Mui-active,
 .checkout .css-1ogt7qy,
 .checkout .css-yb0lig,
-.checkout .css-12rx5qu::after,
 .checkout .css-2fdkz6,
 .checkout .css-348fk2 {
   color: var(--heading-color);
