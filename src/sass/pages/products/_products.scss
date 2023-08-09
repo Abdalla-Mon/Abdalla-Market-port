@@ -56,8 +56,18 @@
     display: block !important;
     margin: 10px auto 0;
   }
-  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+  .css-o3ukdw::after,
+  .css-1utq5rl {
     color: $heading-color !important;
+  }
+  .css-348fk2,
+  .css-o3ukdw,
+  .css-o3ukdw::before {
+    color: $black-color;
+  }
+  .css-348fk2.Mui-focused {
+    color: $heading-color;
   }
 }
 .sorting-area {

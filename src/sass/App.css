@@ -921,8 +921,18 @@ footer .made-by a:hover {
   display: block !important;
   margin: 10px auto 0;
 }
-.products .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+.products .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+.products .css-o3ukdw::after,
+.products .css-1utq5rl {
   color: var(--heading-color) !important;
+}
+.products .css-348fk2,
+.products .css-o3ukdw,
+.products .css-o3ukdw::before {
+  color: var(--black-color);
+}
+.products .css-348fk2.Mui-focused {
+  color: var(--heading-color);
 }
 
 .sorting-area {
