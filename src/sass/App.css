@@ -1185,10 +1185,8 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-mqt2s5,
 .checkout .css-9l3uo3,
 .checkout .css-mnn31,
-.checkout .css-9l3uo3,
 .checkout .css-c7dfze,
 .checkout .css-4ff9q7.Mui-completed,
-.checkout .css-c7dfze,
 .checkout .css-1tqv6h6,
 .checkout .css-mbfek,
 .checkout .css-68o8xu,
@@ -1203,9 +1201,12 @@ body::-webkit-scrollbar-thumb {
 .checkout .css-j7o63n {
   color: var(--black-color);
 }
-.checkout .css-ig9v6z,
-.checkout .css-2fdkz6.Mui-active {
+.checkout .css-ig9v6z {
   background-color: var(--button-color);
+  color: var(--black-color);
+}
+.checkout .css-2fdkz6.Mui-active {
+  color: var(--button-color);
 }
 .checkout .css-1hv8oq8-MuiStepLabel-label.Mui-active,
 .checkout .css-1hv8oq8-MuiStepLabel-label.Mui-completed,

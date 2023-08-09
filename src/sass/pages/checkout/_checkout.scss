@@ -80,10 +80,8 @@
   .css-mqt2s5,
   .css-9l3uo3,
   .css-mnn31,
-  .css-9l3uo3,
   .css-c7dfze,
   .css-4ff9q7.Mui-completed,
-  .css-c7dfze,
   .css-1tqv6h6,
   .css-mbfek,
   .css-68o8xu,
@@ -98,9 +96,12 @@
   .css-j7o63n {
     color: $black-color;
   }
-  .css-ig9v6z,
-  .css-2fdkz6.Mui-active {
+  .css-ig9v6z {
     background-color: $button-color;
+    color: $black-color;
+  }
+  .css-2fdkz6.Mui-active {
+    color: $button-color;
   }
   .css-1hv8oq8-MuiStepLabel-label.Mui-active,
   .css-1hv8oq8-MuiStepLabel-label.Mui-completed,
