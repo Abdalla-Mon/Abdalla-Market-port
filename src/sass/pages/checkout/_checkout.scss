@@ -90,8 +90,17 @@
   .css-1y9c6uq,
   .css-t1nuxs,
   .css-16rlg6l,
-  .css-1yqxwau {
+  .css-1yqxwau,
+  .css-12rx5qu::before,
+  .css-12rx5qu:hover:not(.Mui-disabled, .Mui-error)::before.css-ig9v6z,
+  .css-2fdkz6.Mui-completed,
+  .css-1o2s33n,
+  .css-j7o63n {
     color: $black-color;
+  }
+  .css-ig9v6z,
+  .css-2fdkz6.Mui-active {
+    background-color: $button-color;
   }
   .css-1hv8oq8-MuiStepLabel-label.Mui-active,
   .css-1hv8oq8-MuiStepLabel-label.Mui-completed,
@@ -106,8 +115,10 @@
   .css-4an0mh,
   .css-4ff9q7.Mui-active,
   .css-1ogt7qy,
-  .css-4an0mh,
-  .css-yb0lig {
+  .css-yb0lig,
+  .css-12rx5qu::after,
+  .css-2fdkz6,
+  .css-348fk2 {
     color: $heading-color;
   }
 
